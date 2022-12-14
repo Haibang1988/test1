@@ -1,0 +1,220 @@
+body {
+    margin: 0px;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+
+    padding: 40px;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    margin-top: 60px;
+    margin:0px;
+    padding: 5px 0px 5px 0px;
+}
+/* Họ và tên */
+.name {
+    color: #0e2452;
+    padding-top: 7px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.avatar {
+    display: inline-block;
+    width: 113px;
+    height: 113px;
+    justify-content: center;
+    margin: 0px;
+/* Thông tin cá nhân */
+}
+.personal-information {
+    margin: 40px;
+    background-color: rgb(210, 239, 248);
+}
+
+.section {
+    margin: 40px;
+}
+
+.box-avatar {
+    width: 113px;
+    display: inline-block;
+    padding: 7px 7px 85px 7px;
+    background-color: bisque;
+    margin: 0px;
+}    
+    
+.box-avatar div {
+    display: inline-block;
+    margin: 0px;
+}
+
+#info {
+    margin: 0px;
+    padding-left: 7px;
+    display: inline-block;
+    width: 682px;
+    vertical-align: top;
+}
+
+ 
+#info .section-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-title {
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+#target div div p {
+    line-height: 20px;
+}
+
+/* Học vấn */
+
+.education-content {
+    margin: 0px;
+    line-height: 19px;
+    padding: 0px;
+}
+.time-edu {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.time-content {
+    display: inline-block;
+    line-height: 20px;
+}
+
+/* kinh nghiệm làm việc*/
+
+.time-job {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.experience-job {
+    display: inline-block;
+    line-height: 20px;
+}
+
+/* Hoạt động */
+
+.time-activity {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.activity-ach {
+    display:inline-block;
+    line-height: 20px;
+}
+
+/* Kỹ năng */
+
+.skill-name {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.skill-level {
+    display:inline-block;
+    
+}
+
+/* Chứng nhận-giải thưởng */
+
+.time {
+    width: 250px;
+    display:inline-block;
+    vertical-align: top;
+    line-height: 10px;
+}
+
+.certificate {
+    display: inline-block;
+    line-height: 10px;
+}
+
+/* Sở thích */
+
+.hobby ul {
+    margin-left: -25px;
+    line-height: 20px;
+}  
+
+
+/* .section {
+    margin: 40px;
+    
+} */
+
+
+/* Dự án */
+
+.project-year, .project-name {
+    padding: 5px 0px 0px 0px;
+    margin: 0px;
+    line-height: 25px;
+}
+
+.project-content ul {
+    padding-left: 25px;
+    line-height: 20px;
+    
+}
+
+#contact .section-content ol li a {
+    text-decoration: none;
+    line-height: 20px;
+}
+
+#contact .section-content ol li {
+    margin-left: -20px;
+    padding: 0px;
+}
+
+hr {
+    border-top: 0.2px dashed rgb(237, 226, 226);
+
+}
